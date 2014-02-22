@@ -9,7 +9,7 @@ import android.hardware.SensorManager;
 import java.util.List;
 
 import static android.hardware.Sensor.TYPE_GYROSCOPE;
-
+// testing commit
 /**
  * Created by sredzki on 2/22/2014.
  */
@@ -52,4 +52,3 @@ public class MainGyroscope extends Activity implements SensorEventListener {
         return sensorAvailable;
     }
 }
-// testing commit
