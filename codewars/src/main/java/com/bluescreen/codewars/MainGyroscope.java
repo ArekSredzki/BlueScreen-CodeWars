@@ -52,3 +52,4 @@ public class MainGyroscope extends Activity implements SensorEventListener {
         return sensorAvailable;
     }
 }
+// testing commit
