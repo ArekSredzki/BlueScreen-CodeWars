@@ -1,6 +1,10 @@
+package com.bluescreen.codewars;
+
+
 import java.lang.Math;
-import java.lang.Float;
-import java.lang.Double;
+
+import com.bluescreen.framework.implementation.AndroidGraphics;
+
 public class Player {
 	
 	/* Fields */
@@ -135,6 +139,7 @@ public class Player {
 	public void setDeltaY(float deltaY) {
 		this.deltaY = deltaY;
 	}
+
 	public void setAngle(float angle) {
 		this.angle = angle;
 	}

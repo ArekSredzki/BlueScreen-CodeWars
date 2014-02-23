@@ -16,16 +16,17 @@ public class SplashLoadingScreen extends Screen {
 
     @Override
     public void update(float deltaTime) {
-        //Graphics g = game.getGraphics();
-        //Assets.splash= g.newImage("splash.jpg", ImageFormat.RGB565);
+        Graphics g = game.getGraphics();
+        Assets.splash= g.newImage("splash.png", ImageFormat.RGB565);
 
-        //game.setScreen(new LoadingScreen(game));
+        game.setScreen(new LoadingScreen(game));
 
     }
 
     @Override
     public void paint(float deltaTime) {
-
+        Graphics g = game.getGraphics();
+        g.drawImage(Assets.splash, 0, 0);
     }
 
     @Override

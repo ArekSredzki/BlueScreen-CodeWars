@@ -44,7 +44,7 @@ public class MainMenuScreen extends Screen {
 
     @Override
     public void paint(float deltaTime) {
-        //Graphics g = game.getGraphics();
+        Graphics g = game.getGraphics();
         //g.drawImage(Assets.menu, 0, 0);
     }
 

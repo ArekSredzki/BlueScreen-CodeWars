@@ -15,6 +15,7 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.Rect;
+import android.graphics.Path;
 
 import com.bluescreen.framework.Graphics;
 import com.bluescreen.framework.Image;
@@ -103,6 +104,13 @@ public class AndroidGraphics implements Graphics {
         paint.setColor(color);
         paint.setStyle(Style.FILL);
         canvas.drawCircle(x, y, radius, paint);
+    }
+
+    @Override
+    public void drawPath(Path path, int color) {
+        paint.setColor(color);
+        paint.setStyle(Style.FILL);
+        canvas.drawPath(path, paint);
     }
 
     @Override

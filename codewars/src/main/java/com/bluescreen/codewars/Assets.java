@@ -4,8 +4,6 @@ package com.bluescreen.codewars;
  * Created by areksredzki on 2/22/2014.
  */
 import com.bluescreen.framework.Image;
-import com.bluescreen.framework.Music;
-import com.bluescreen.framework.Sound;
 
 public class Assets {
 
@@ -13,7 +11,7 @@ public class Assets {
     //public static Image button;
     //public static Music theme;
 
-    public static void load(ProjectBlue game) {
+    public static void load(OurGame game) {
         /*
         theme = game.getAudio().createMusic("menutheme.mp3");
         theme.setLooping(true);

@@ -30,8 +30,6 @@ public class AndroidFileIO implements FileIO {
         this.externalStoragePath = Environment.getExternalStorageDirectory()
                 .getAbsolutePath() + File.separator;
 
-
-
     }
 
     @Override

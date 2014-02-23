@@ -11,7 +11,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="Project Blue" >
         <activity
-            android:name=".ProjectBlue"
+            android:name=".OurGame"
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:label="Project Blue"
             android:screenOrientation="landscape" >

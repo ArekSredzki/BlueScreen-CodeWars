@@ -5,6 +5,7 @@ package com.bluescreen.framework;
  */
 
 import android.graphics.Paint;
+import android.graphics.Path;
 
 public interface Graphics {
     public static enum ImageFormat {
@@ -20,6 +21,8 @@ public interface Graphics {
     public void drawRect(int x, int y, int width, int height, int color);
 
     public void drawCircle(int x, int y, float radius, int color);
+
+    public void drawPath(Path path, int color);
 
     public void drawImage(Image image, int x, int y, int srcX, int srcY,
                           int srcWidth, int srcHeight);

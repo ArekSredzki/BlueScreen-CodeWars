@@ -16,17 +16,17 @@ public class LoadingScreen extends Screen {
 
     @Override
     public void update(float deltaTime) {
-        //Graphics g = game.getGraphics();
+        Graphics g = game.getGraphics();
         //Assets.menu = g.newImage("menu.png", ImageFormat.RGB565);
 
-        game.setScreen(new MainMenuScreen(game));
+        //game.setScreen(new MainMenuScreen(game));
 
     }
 
     @Override
     public void paint(float deltaTime) {
-        //Graphics g = game.getGraphics();
-        //g.drawImage(Assets.splash, 0, 0);
+        Graphics g = game.getGraphics();
+        g.drawImage(Assets.splash, 0, 0);
     }
 
     @Override
