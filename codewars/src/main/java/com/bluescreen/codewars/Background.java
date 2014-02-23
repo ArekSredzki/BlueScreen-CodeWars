@@ -13,7 +13,7 @@ public class Background
 {
     Vector2D speed;
     Point[] CircleCentres;
-    float size;
+    int size;
     int coefficient;
     int colour ;
     View view;
@@ -30,10 +30,11 @@ public class Background
             CircleCentres[i].y = random_num(metrics.heightPixels);
         }
         int l = random_num(128);
-        colour = Color.argb(135, 0, 0, l);
-        view.setBackgroundColor(Color.argb(135,0,0,l));
+        int q = random_num(256);
+        colour = Color.argb(q, 0, 0, l);
+        view.setBackgroundColor(Color.argb(q,0,0,l));
     }
-    public void update(float x,float y)
+    public void update(int x,int y)
     {
         speed.setVec(coefficient*-x,coefficient*-y);
         for(int i=0;i<CircleCentres.length;++i)
@@ -41,7 +42,6 @@ public class Background
             CircleCentres[i].x -= (int) x;
             CircleCentres[i].y -= (int) y;
         }
-
 
     }
     public void render_background(Graphics g)

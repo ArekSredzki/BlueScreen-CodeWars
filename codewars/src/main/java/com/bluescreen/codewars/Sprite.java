@@ -3,9 +3,7 @@ package com.bluescreen.codewars;
 import android.graphics.Color;
 import android.media.Image;
 import android.util.DisplayMetrics;
-import android.content.Context;
 
-import com.bluescreen.framework.Graphics;
 
 /**
  * Created by Radu on 22/02/14.
@@ -134,8 +132,6 @@ protected void move()
 
 }
 
-public void draw(Graphics g) {
-    g.drawCircle(x, y, relsize);
-}
+public abstract void draw();
 
 }
