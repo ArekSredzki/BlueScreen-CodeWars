@@ -34,4 +34,12 @@ public class Vector2D
         float mag = magnitude();
         setVec(dx/mag,dy/mag);
     }
+    public float getDx()
+    {
+        return this.dx;
+    }
+    public float getDy()
+    {
+        return this.dy;
+    }
 }
