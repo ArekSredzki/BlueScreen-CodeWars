@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BlueScreen.iml" filepath="$PROJECT_DIR$/BlueScreen.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProjectBlue/ProjectBlue.iml" filepath="$PROJECT_DIR$/ProjectBlue/ProjectBlue.iml" />
       <module fileurl="file://$PROJECT_DIR$/codewars/codewars.iml" filepath="$PROJECT_DIR$/codewars/codewars.iml" />
     </modules>
   </component>
