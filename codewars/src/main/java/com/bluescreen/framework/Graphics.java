@@ -4,6 +4,7 @@ package com.bluescreen.framework;
  * Created by areksredzki on 2/22/2014.
  */
 
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 
@@ -21,6 +22,7 @@ public interface Graphics {
     public void drawRect(int x, int y, int width, int height, int color);
 
     public void drawCircle(int x, int y, float radius, int color);
+    public void drawCircle(int x, int y, float radius);
 
     public void drawPath(Path path, int color);
 

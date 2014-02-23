@@ -1,7 +1,17 @@
 package com.bluescreen.codewars;
 
+import android.content.res.AssetManager;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.media.Image;
+import com.bluescreen.framework.Graphics;
+import com.bluescreen.framework.implementation.AndroidGraphics;
+import android.content.Context;
+import android.graphics.drawable.BitmapDrawable;
+import 	android.graphics.drawable.Drawable;
+import android.util.DisplayMetrics;
+
+import java.io.InputStream;
 
 
 /**
@@ -22,12 +32,13 @@ public Amibae(int x, int y,Color color,int size)
     }
 
 
-@Override
-public void draw()
-{
+    @Override
+    public void draw(Context myContext,Image image)
+    {
 
 
-}
+
+    }
 
 
 

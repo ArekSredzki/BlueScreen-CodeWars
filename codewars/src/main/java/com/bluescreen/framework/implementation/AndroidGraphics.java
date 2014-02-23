@@ -105,6 +105,12 @@ public class AndroidGraphics implements Graphics {
         paint.setStyle(Style.FILL);
         canvas.drawCircle(x, y, radius, paint);
     }
+    @Override
+    public void drawCircle(int x, int y, float radius) {
+        paint.setARGB(1,22,67,112);
+        paint.setStyle(Style.FILL);
+        canvas.drawCircle(x, y, radius, paint);
+    }
 
     @Override
     public void drawPath(Path path, int color) {
